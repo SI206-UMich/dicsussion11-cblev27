@@ -46,6 +46,8 @@ def create_patients_table(cur, conn):
 
 # ADD FLUFFLE TO THE TABLE
 def add_fluffle(cur, conn):
+   ALTER TABLE patients_table
+   ADD fluffle ;
     
     
 
